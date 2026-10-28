@@ -9,7 +9,7 @@ metadata:
 spec:
   title: "Vercel's Content Wind template on Cloudflare Workers and D1"
   summary: "Content Wind — a personal website written in Markdown, built with Nuxt Content, Tailwind CSS and Iconify — run on Cloudflare Workers + Static Assets through Nitro's cloudflare_module preset, every page prerendered and Nuxt Content's queries on a Cloudflare D1 database Terraform provisions per environment; and become an Orun baseline that takes a new site from nothing to live on stage and prod in one landing."
-  state: started
+  state: completed
   milestones:
     - name: "CW0 — the spec"
       exitCriteria:

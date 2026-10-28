@@ -7,6 +7,6 @@ folder is the adoption; the merge creates the epic in the workspace.
 
 | Epic | Cluster | Status | What it is |
 |------|---------|--------|------------|
-| [`content-wind/`](./content-wind/) | **CW** | In progress (CW1: the site on Workers) | Vercel's Content Wind template — a personal website in Markdown on Nuxt Content, Tailwind CSS and Iconify — on Cloudflare Workers with every page prerendered and Nuxt Content's queries on D1, and an Orun baseline that instantiates it in one landing (CW2) |
+| [`content-wind/`](./content-wind/) | **CW** | ✅ Shipped (`baseline-v1`); not yet live | Vercel's Content Wind template — a personal website in Markdown on Nuxt Content, Tailwind CSS and Iconify — on Cloudflare Workers with every page prerendered and Nuxt Content's queries on D1, and an Orun baseline that instantiates it in one landing (CW2) |
 
 As-built ≠ intent: what shipped lives in each epic's `IMPLEMENTATION-STATUS.md`.
