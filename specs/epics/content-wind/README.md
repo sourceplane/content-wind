@@ -7,7 +7,7 @@ copy of it somebody else's personal website in one landing.**
 
 | | |
 |---|---|
-| Status | In progress — CW0 on main |
+| Status | In progress — CW1 on main: the site runs on Workers |
 | Upstream | [atinux/content-wind](https://github.com/Atinux/content-wind) (MIT), at `f0e56c9` (2026-10-23): Nuxt 4.6, Nuxt Content 3.16, Tailwind CSS 4, Nuxt Icon 2 |
 | Reference | [docus](https://github.com/sourceplane/docus) — the same Nuxt Content → D1 seam; [turso-starter](https://github.com/sourceplane/turso-starter) — D1 and its wiring |
 | Key | `CW` |
