@@ -4,7 +4,7 @@
 |---|---|---|
 | CW0 — the spec | ✅ | the repository's first commit |
 | CW1 — Content Wind on Workers and D1 | ✅ | CW-2 |
-| CW2 — a baseline | planned | CW-3 |
+| CW2 — a baseline | ✅ | CW-3, tagged `baseline-v1` |
 
 ## Departures from the upstream template
 
