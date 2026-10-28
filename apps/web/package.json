@@ -1,0 +1,35 @@
+{
+  "name": "@app/web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A personal website written in Markdown, built with Content Wind on Nuxt and Nuxt Content.",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "wrangler dev",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt prepare && vue-tsc --noEmit -p .nuxt/tsconfig.app.json",
+    "lint": "nuxt prepare && eslint .",
+    "wire:fixture": "node ../../tooling/wire/render.mjs --template wrangler.template.jsonc --out wrangler.jsonc --map wiring.fixture.json --env stage"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "1.2.147",
+    "@iconify-json/simple-icons": "1.2.100",
+    "@nuxt/content": "3.16.2",
+    "@nuxt/fonts": "1.1.0",
+    "@nuxt/icon": "2.5.1",
+    "@nuxtjs/color-mode": "4.0.1",
+    "@tailwindcss/typography": "0.5.20",
+    "@tailwindcss/vite": "4.3.3",
+    "nuxt": "4.6.2",
+    "tailwindcss": "4.3.3"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "1.17.0",
+    "eslint": "10.13.0",
+    "typescript": "6.0.3",
+    "vue-tsc": "^3.2.0",
+    "wrangler": "^4.151.0"
+  }
+}
