@@ -1,0 +1,19 @@
+apiVersion: orun.io/v1
+kind: TaskContract
+metadata:
+  name: CW-2
+  title: "Content Wind on Workers and D1"
+spec:
+  goal: Content Wind runs on Cloudflare Workers + Static Assets through Nitro's cloudflare_module preset, every page prerendered, Nuxt Content's queries on a D1 database its Terraform root provisions for stage and prod
+  affects:
+    - apps/web
+    - infra
+    - tests/web
+    - pnpm-lock.yaml
+    - pnpm-workspace.yaml
+    - README.md
+    - .gitignore
+  doneWhen:
+    - pnpm typecheck, lint, test and build are green
+    - wrangler dev serves the pages and their payloads, and Nuxt Content's query route answers from an empty local D1 that Nuxt Content filled
+  gates: []
