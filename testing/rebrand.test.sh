@@ -80,9 +80,9 @@ check "the template's repository in its demo content keeps its name" \
 check "…in the init command, any case" \
   "$acme" apps/web/content/1.index.md 'npx nuxi init -t github:atinux/content-wind my-website' \
   'npx nuxi init -t github:atinux/content-wind my-website'
-check "…and in the deploy buttons' encoded URLs" \
-  "$acme" apps/web/content/1.index.md '[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fatinux%2Fcontent-wind)' \
-  '[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fatinux%2Fcontent-wind)'
+check "…and in the deploy button's URL" \
+  "$acme" apps/web/content/1.index.md '[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/atinux/content-wind)' \
+  '[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/atinux/content-wind)'
 check "the content config's comment about the theme is the template's" \
   "$acme" apps/web/content.config.ts '     * This is collection for content-wind theme' \
   '     * This is collection for content-wind theme'
